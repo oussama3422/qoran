@@ -1,0 +1,59 @@
+name: audio_app
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  audioplayers: ^5.2.1
+  http: ^1.1.0
+  flutter_sound: ^9.2.13
+  flutter_bloc: ^8.1.4
+  flutter_progress_hud: ^2.0.2
+  gap: ^3.0.1
+  video_player: ^2.8.6
+  connectivity_bloc: ^0.0.3
+  connectivity_plus: ^4.0.2
+  # permission_handler: ^11.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/coran.png"
+  min_sdk_android: 21 
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    # - assets/audios/
+
+  fonts:
+    - family: ARSLAN
+      fonts:
+        - asset: assets/fonts/font_arabic.ttf
+
+    - family: ukji
+      fonts:
+        - asset: assets/fonts/UKIJEs.ttf    
+
+    - family: AD
+      fonts:
+        - asset: assets/fonts/AD.ttf    
